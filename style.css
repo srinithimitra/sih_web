@@ -1,0 +1,329 @@
+
+.text-center{
+    height: 30rem;
+}
+#service_button .containerr{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #DDD;
+    transition: all .5s ease-out;
+    color: #273c75;
+  }
+ #aboutUs_button .container{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left:2rem;
+    width: 200px;
+    
+    transition: all .5s ease-out;
+    color: #273c75;
+  }
+ .navcolor{
+  background-color: #16423C;
+ }
+
+  button:hover{
+    color: #FFF;
+
+  }
+
+  
+#service_button div button{
+    border-radius: 14px;
+    color: black;
+   
+}
+#service_button div button{
+    background: linear-gradient(to right, #e84118 50%, #FFF 50%);
+   background-size: 200% 100%;
+   background-position: right;
+ }
+ #service_button div button:hover{
+    background-position: left;
+  }
+
+
+  #aboutUs_button .container button{
+    border-radius: 14px;
+}
+
+#aboutUs_button .container button{
+    border-radius: 14px;
+    color: black;
+   
+}
+#aboutUs_button .container button{
+    background: linear-gradient(to right, #e84118 50%, #FFF 50%);
+   background-size: 200% 100%;
+   background-position: right;
+ }
+
+  #aboutUs_button .container button:hover{
+    background-position: left;
+  }
+ .navcolor{
+  background-color: #16423C;
+  color: #16423C;
+ }
+
+
+  #ourplatform_button .container button{
+    border-radius: 14px;
+}
+/* .navbar-nav{
+  background-color: #16423C;
+} */
+.navcolor{
+  background-color: #16423C;
+}
+
+
+
+#services .container{
+    display: flex;
+  flex-direction: column;
+  align-items: end;
+  width:400px;
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+  gap: 4rem;
+  
+    
+}
+
+
+.container img{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+body
+{
+  background: linear-gradient(300deg, #16423C,#6A9C89,#C4DAD2);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+    
+}
+.container-fluid
+{
+    background-color: #16423C;
+ 
+}
+.navbar-brand
+{
+    height: 70px;
+}
+ .card{
+    background-color: #16423C;
+    text-decoration-color: #DDD;
+}
+/* #offcanvasNavbar
+{
+    background-color: #FFD7C4;
+} */
+/* #security_cards{
+    background-image: url("./UIPIC-removebg-preview.png");
+} */
+
+.card-title{
+  color: #DDD;
+}
+.card-text{
+  color: #DDD;
+}
+
+
+ .text-center
+ {
+    background-image: url("./newlogo-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 28rem;
+    
+    
+ }
+
+ #animation{
+    font-size: 500px;
+ }
+
+ /* .platform
+ {
+    background-image: url("./sihpic-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 38rem;
+ } */
+.bg-body-tertiary
+{
+    background-color:#f14fe4 ;
+}
+#title{
+    height: 100rem;
+}
+.text-center img
+{
+    margin-top: 75px;
+}
+
+.Earth{
+    margin-left: 400px;
+   
+    
+}
+#security_cards .container
+{
+    display: flex;
+    
+   
+padding: 40px;
+    gap:5rem;
+    
+}
+#detail{
+  padding-top: 200px;
+  font-family: "Arapey", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+}
+.carcontainer
+{
+    height: 30rem;
+    margin: 0;
+    
+    
+    padding: 50px;
+ 
+}
+#carouselExampleCaptions{
+   margin-top: 30px;
+  
+
+  width:60%;
+
+    
+  
+}
+#main{
+ padding-top: 100px;
+  font-family: "Arapey", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+}
+/* #page  {position: sticky!important; top: 0px!important}
+html {scroll-behavior: smooth}
+.carousel-inner > .item > img {
+    width:300px;
+    height:640px;
+  
+  } */
+  .btn-primary{
+    background-color: #6A9C89;
+  }
+  #solution {
+    font-family: "Arapey", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+  }
+  .card .read-more:hover{
+    font-size: 14px;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px blue;
+    transform:scale(1.2);
+}
+
+.card{
+  
+  border:1px solid black;
+  transition:.3s;
+  /* margin: 3rem; */
+}
+#preloader{
+    background: #000 url(./preloader.gif) no-repeat center center;
+    background-size: 20%; 
+    height:100vh;
+    width:100%;
+    position:fixed;
+    z-index:100;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel_items {
+    display: flex;
+    wrap: nowrap;
+    overflow: hidden;
+  }
+  .carousel_item {
+    position: relative;
+    min-width: 100%;
+    height: 100vh;
+    transition: all 0.5s linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .carousel_text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: calc(1.5rem + 0.3vw);
+    font-weight: bolder;
+  }
+  
+  .item1 {
+    background-image: url("https://cdn.oceanservice.noaa.gov/oceanserviceprod/education/tutorial-coastal/oil-spills/os-03-skimming-oil.jpg");
+  }
+  .item2 {
+    background-image: url("https://acespace.org/wp-content/uploads/2021/10/5a4f7d68-gp1su9nb-1024x576-1.jpg");
+  }
+  .item3 {
+    background-image: url("https://acmeboom.com/wp-content/uploads/pexels-belle-co-847393.jpg");
+  
+  }
+  .item4 {
+    background-image: url("https://skytruth.org/wp-content/uploads/2017/08/Kuwait_2017-08-10_a-1500x1061.png");
+  
+  }
+ 
+
+  #intro{
+    width: 800px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  #members .container #solution{
+    float:left;
+
+    
+  }
+.logo{
+  height: 75px;
+}
+
+.size_adjustment{
+  height:40px;
+}
+.nav-link
+{
+  color: #FFF;
+}
